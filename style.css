@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(236, 221, 236);
+}
+div#outer{
+    height: 500px;
+    width:88%;
+    margin-left: 60px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 5px;
+
+    background-image: linear-gradient(to right , rgb(202, 155, 199), rgba(255, 255, 255,1));
+    border: 1px solid rgba(240, 206, 238, 0.5);
+    border-radius: 10px;
+    display: block;
+    box-shadow:  20px 20px 5px  rgba(100, 150, 50, 0.8);
+    -moz-box-shadow: 0 0 10px  rgba(158, 129, 156, 0.8);
+    -webkit-box-shadow: 0 0 10px  rgba(156, 109, 153, 0.8);
+    -o-box-shadow: 0 0 10px  rgba(156, 109, 153, 0.8);
+}
+#icon{
+    text-align:center;
+    position: relative;
+    left:30%;
+    font-size: 40px;
+}
+.fa {
+    padding: 20px;
+    font-size: 8px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    color: black;
+  }
+
+.fa-twitter {
+  color: black;
+}
+#search_box{
+border-radius: 10px;
+position: relative;
+left:57%;
+}
+.vertical{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border-left: 1px solid black;
+}
+.temp{
+   vertical-align: middle;
+   font-size: larger;
+}
+
+#img1{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 73%;
+  top:33%;
+}
+#middle{
+  position:absolute;
+  left: 37%;
+  top:30%
+}
+table{
+  margin: 25px;
+}
+.try{
+  border:1px solid rgb(202, 155, 199);
+  border-spacing: 10px;
+}
