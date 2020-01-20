@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title> its is title</title>
         <link rel="stylesheet" href="style.css">
@@ -7,63 +7,68 @@
     </head>
     <body>
         <div id="outer">
-            <p>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <span id= "icon">Weather</span>
-                <input type= "search" id= "search_box" placeholder="search Place">
-                <img src=https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg alt="" id=img1>
-
-            </p>
             <div>
+              <div class ="frist-row">
+                  <div id="icon">
+                    <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/login?lang=en" class="fa fa-twitter" target="_blank"></a>
+                  </div>
 
+                  <div id= "text">Weather</div>
+                  <div id= "search-group">
+                    <input type= "search" id="search_box" placeholder="search Place">
+                    <button id="search_button" onclick="myFunction()">Go</button>
+                  </div>
+              </div>
+              <div id= "second-row">
+                <div id="sec-frist">
+                  <div class="try">
+                    <img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png" width="20px" height="20px" alt="*">
+                    <p class="vertical" id="day1">TUE</p>
+                    <p class= "temp"><span id="temp1">2</span><sup>o</sup></p>
+                  </div>
+<br/>
+                  <div class="try">
+                    <img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*">
+                    <p class="vertical" id="day2">TUE</p>
+                    <p class= "temp"><span id="temp2">2</span><sup>o</sup></p>
+                  </div>
+<br/>
+                  <div class="try">
+                    <img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*">
+                    <p class="vertical" id="day3">TUE</p>
+                    <p class= "temp"><span id="temp3">2</span><sup>o</sup></p>
+                  </div>
+<br/>
+                  <div class="try">
+                    <img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*">
+                    <p class="vertical" id="day4">TUE</p>
+                    <p class= "temp"><span id="temp4">2</span><sup>o</sup></p>
+                  </div>
+                </div>
+
+                <div id="sec-middle">
+                  <div id="middle">
+
+                      <img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png",width="100px", height="100px" alt="">
+                      <p><span style="font-size: 100px; border-left: 1px solid black;"><span id="currtemp">5</span><sup>o</sup></span></p>
+
+                  </div><div>
+                    <div><table>
+                          <tr><td colspan="2" align="right" id="date_field1">Monday, 30FEB 2029</td></tr>
+                          <tr><td colspan="2" align="right" id="place_field">Seoul,South Korea</td></tr>
+                        </table>
+                    </div>
+                  </div>
+                </div>
+                <div id= "middle-rigth">
+                    <img src=https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg alt="" id="img1">
+                </div>
+              </div>
             </div>
-            <table id="middle">
-                <tr padding="5px">
-                    <td><img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png",width="100px", height="100px" alt=""></td>
-                    <td><span style="font-size: 100px; border-left: 1px solid black;">5<sup>o</sup></span></td>
-                </tr>
-                <tr><td colspan="2" align="right">Monday, 30FEB 2029</td></tr>
-                <tr><td colspan="2" align="right">Seoul,South Korea</td></tr>
-            </table>
+          </div>
 
-            
+ <script src="weather.js"> </script>
 
-            <table>
-              <tr class="try">
-                <td><img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*"></td>
-                <td class="vertical">T<br/>U<br/>E</td>
-                <td class= "temp">2<sup>o</sup></td>
-              </tr>
-              
-
-              <tr class="try" >
-                    <td><img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*"></td>
-                    <td class="vertical">W<br/>E<br/>D</td>
-                    <td class= "temp">3<sup>o</sup></td>
-              </trclass="try">
-              <tr class="try">
-                    <td><img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*"></td>
-                    <td class="vertical">T<br/>H<br/>U</td>
-                    <td class= "temp">2<sup>o</sup></td>
-              </tr>
-              <tr class="try">
-                    <td><img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*"></td>
-                    <td class="vertical">F<br/>R<br/>I</td>
-                    <td class= "temp">5<sup>o</sup></td>
-              </tr>
-                <tr class="try">
-                    <td><img src="https://seeklogo.com/images/K/kawasaki-winter-test-logo-345DE97253-seeklogo.com.png", width="20px", height="20px" alt="*"></td>
-                    <td class="vertical">S<br/>T<br/>A</td>
-                    <td class= "temp">2<sup>o</sup></td>
-                    </tr>
-
-              </table>
-
-
-            </div>
-
-            </div>
-        </div>
     </body>
 </html>
