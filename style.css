@@ -14,10 +14,10 @@ div#outer{
   border: 1px solid rgba(240, 206, 238, 0.5);
   border-radius: 10px;
   display: block;
-  box-shadow:  20px 20px 5px  rgba(100, 150, 50, 0.8);
-  -moz-box-shadow: 0 0 10px  rgba(158, 129, 156, 0.8);
-  -webkit-box-shadow: 0 0 10px  rgba(156, 109, 153, 0.8);
-  -o-box-shadow: 0 0 10px  rgba(156, 109, 153, 0.8);
+  box-shadow:  0px 0px 15px 20px rgba(158, 120, 150, 0.5);
+  -moz-box-shadow: 0 0 15px  20px  rgba(158, 129, 156, 0.5);
+  -webkit-box-shadow: 0 0 15px 20px rgba(156, 109, 153, 0.5);
+  -o-box-shadow: 0 0 15px 15px rgba(156, 109, 153, 0.5);
 }
 
 .frist-row {
@@ -54,7 +54,6 @@ padding-right: 10px;
 
 #icon{
 display: inline-block;
-text:none;
 }
 
 .fa {
